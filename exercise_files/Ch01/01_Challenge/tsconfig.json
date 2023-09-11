@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "outDir": "dist",
+        "target": "ES6",
+
+    },
+    "include": ["**.ts"]
+}
