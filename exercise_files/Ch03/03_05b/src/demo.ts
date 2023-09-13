@@ -1,5 +1,6 @@
-let x = { name: "Wruce Bayne" };
+let x:Record<string,string | number> = { name: "Wruce Bayne" };
 x.id = 1234;
+
 
 
 
