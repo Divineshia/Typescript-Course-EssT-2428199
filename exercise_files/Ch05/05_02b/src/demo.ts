@@ -12,6 +12,9 @@ const currentUser = {
         return this.roles.contains(role);
     }
 }
+function authorize(target : any, property:string , descriptor: PropertyDescriptor){
+
+}
 
 class ContactRepository {
     private contacts: Contact[] = [];

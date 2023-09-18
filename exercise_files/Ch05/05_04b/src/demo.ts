@@ -29,7 +29,10 @@ function authorize(role: string) {
         }
     }
 }
+function freeze (target:Function){
 
+}
+@freeze
 class ContactRepository {
     private contacts: Contact[] = [];
 
